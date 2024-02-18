@@ -10,6 +10,7 @@ public class Question1_1Test {
 
         Assertions.assertEquals(true, Question1_1.isUnique("abc"));
         Assertions.assertEquals(false, Question1_1.isUnique("aaa"));
+        Assertions.assertEquals(false, Question1_1.isUnique("aba"));
     }
 
 }
