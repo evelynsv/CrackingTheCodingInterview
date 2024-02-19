@@ -8,9 +8,13 @@ public class Question1_1Test {
     @Test
     public void test() {
 
-        Assertions.assertEquals(true, Question1_1.isUnique("abc"));
         Assertions.assertEquals(false, Question1_1.isUnique("aaa"));
+        Assertions.assertEquals(false, Question1_1.isUnique("abc"));
         Assertions.assertEquals(false, Question1_1.isUnique("aba"));
+
+        Assertions.assertEquals(true, Question1_1.isUniqueSet("abc"));
+        Assertions.assertEquals(false, Question1_1.isUniqueSet("aaa"));
+        Assertions.assertEquals(false, Question1_1.isUniqueSet("aba"));
     }
 
 }
