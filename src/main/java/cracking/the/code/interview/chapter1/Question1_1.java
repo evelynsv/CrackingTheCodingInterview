@@ -8,22 +8,19 @@ public class Question1_1 {
     // Solution without using additional data structure
     // Time Complexity O(n^2)
     public static boolean isUnique(String word) {
-    int numberOfEqualChars = 0;
 
         for (int i = 0; i < word.length(); i++) {
             char charToCompare = word.charAt(i);
             for (int j = 0; j < word.length(); j++) {
-                int diff = Character.compare(charToCompare, word.charAt(j));
-                if (diff == 0) {
-                    numberOfEqualChars++;
+                if (i == j) {
+                    continue;
+                }
+                if (charToCompare == word.charAt(j)) {
+                    return false;
                 }
             }
         }
-        if ((numberOfEqualChars - word.length()) > 0) {
-            return false;
-        } else {
-            return true;
-        }
+        return true;
     }
         
         //----------Book solution to understand later-------------
