@@ -15,7 +15,16 @@ public class Question1_4Test {
 
         Assertions.assertEquals(false, Question1_4.isPalindromePermutation("vaimmiax"));
         Assertions.assertEquals(false, Question1_4.isPalindromePermutation("vaimm iax"));
-        
+
+
+        // // -------Map solution test-------------
+        Assertions.assertEquals(true, Question1_4.isPalindromePermutationMap("Tact Coa"));
+        Assertions.assertEquals(true, Question1_4.isPalindromePermutationMap("vaimimiav"));
+        Assertions.assertEquals(true, Question1_4.isPalindromePermutationMap("Vaim miav"));
+        Assertions.assertEquals(true, Question1_4.isPalindromePermutationMap("vaimxmiav"));
+
+        Assertions.assertEquals(false, Question1_4.isPalindromePermutationMap("vaimmiax"));
+        Assertions.assertEquals(false, Question1_4.isPalindromePermutationMap("vaimm iax"));
         
     }
 }

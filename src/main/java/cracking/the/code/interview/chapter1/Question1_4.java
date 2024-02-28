@@ -1,9 +1,39 @@
 package cracking.the.code.interview.chapter1;
 
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
 import java.util.Set;
 
 public class Question1_4 {
+
+    public static boolean isPalindromePermutationMap(String stringToCheck) {
+
+        String stringWithoutSpaces = stringToCheck.toLowerCase().replaceAll("\\s", "");
+        Map<Character, Integer> stringToCheckMap = new HashMap<>();
+        int odds = 0;
+
+        for(int i = 0; i < stringWithoutSpaces.length(); i++) {
+            Integer value = stringToCheckMap.getOrDefault(stringWithoutSpaces.charAt(i), null);
+            if (value == null) {
+                value = 1;
+            } else {
+                value++;
+            }
+            stringToCheckMap.put(stringWithoutSpaces.charAt(i), value);
+        }
+
+        for (Integer v : stringToCheckMap.values()) {
+            if ((v % 2) != 0 || v == 1) {
+                odds++;
+            }
+        }
+
+        if (odds > 1) {
+            return false;
+        }
+        return true;
+    }
 
     public static boolean isPalindromePermutation(String stringToCheck) {
 
