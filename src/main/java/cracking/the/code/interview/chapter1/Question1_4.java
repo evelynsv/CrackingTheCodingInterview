@@ -9,7 +9,7 @@ public class Question1_4 {
 
     public static boolean isPalindromePermutationMap(String stringToCheck) {
 
-        String stringWithoutSpaces = stringToCheck.toLowerCase().replaceAll("\\s", "");
+        String stringWithoutSpaces = stringToCheck.toLowerCase().replaceAll(" ", "");
         Map<Character, Integer> stringToCheckMap = new HashMap<>();
         int odds = 0;
 
@@ -24,7 +24,7 @@ public class Question1_4 {
         }
 
         for (Integer v : stringToCheckMap.values()) {
-            if ((v % 2) != 0 || v == 1) {
+            if ((v % 2) != 0) {
                 odds++;
             }
         }
