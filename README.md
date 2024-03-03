@@ -38,6 +38,9 @@ This repo register my evolution in the Cracking The Coding Interview book as I g
 
 [**1.4** Palindrome Permutation: Given a string, write a function to check if it is a permutation of a palindrome. A palindrome is a word or phrase that is the same forwards and backwards. A permuation is a rearrangement of letters. The palindrome does not need to be limited to just dictionary words. You can ignore casing and non-letter characters.](https://github.com/evelynsv/CrackingTheCodingInterview/blob/main/src/main/java/cracking/the/code/interview/chapter1/Question1_4.java)
 
+[**1.5** One Away: There are three types of edits that can be performed on strings: insert a character, remove a character, or replace a character. Given two strings, write a function to check if they are one edit (or zero edits) away.](https://github.com/evelynsv/CrackingTheCodingInterview/blob/main/src/main/java/cracking/the/code/interview/chapter1/Question1_5.java)
+
+[**1.6** String Compression: Implement a method to perform basic string compression using the counts of repeated characters. For example, the string aabcccccaaa would become a2b1c5a3. If the "compressed" string would not become smaller than the original string, your method should return the original string. You can assume the string has only uppercase and lowercase letters (a - z).](https://github.com/evelynsv/CrackingTheCodingInterview/blob/main/src/main/java/cracking/the/code/interview/chapter1/Question1_6.java)
 
 # Chapter 4 | Trees and Graphs 
 
