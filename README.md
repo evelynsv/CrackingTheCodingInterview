@@ -42,6 +42,8 @@ This repo register my evolution in the Cracking The Coding Interview book as I g
 
 [**1.6** String Compression: Implement a method to perform basic string compression using the counts of repeated characters. For example, the string aabcccccaaa would become a2b1c5a3. If the "compressed" string would not become smaller than the original string, your method should return the original string. You can assume the string has only uppercase and lowercase letters (a - z).](https://github.com/evelynsv/CrackingTheCodingInterview/blob/main/src/main/java/cracking/the/code/interview/chapter1/Question1_6.java)
 
+[**1.7** Rotate Matrix: Given an image represented by an N x N matrix, where each pixel in the image is represented by an integer, write a method to rotate the image by 90 degrees. Can you do this in place?](https://github.com/evelynsv/CrackingTheCodingInterview/blob/main/src/main/java/cracking/the/code/interview/chapter1/Question1_7.java)
+
 # Chapter 4 | Trees and Graphs 
 
 [My Trie Implementation (insert/search)](https://github.com/brendonmiranda/CrackingTheCodingInterview/blob/main/src/main/java/data/structure/tree/TrieTree.java)
