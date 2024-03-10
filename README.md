@@ -46,6 +46,8 @@ This repo register my evolution in the Cracking The Coding Interview book as I g
 
 [**1.8** Zero Matrix: Write an algorithm such that if an element in a M x N matrix is 0, its entire row and column are set to zero.](https://github.com/evelynsv/CrackingTheCodingInterview/blob/main/src/main/java/cracking/the/code/interview/chapter1/Question1_8.java)
 
+[**1.9** String Rotation: Assume you have a method isSubstring which checks if one word is a substring of another. Given two substrings, s1 and s2, write a code to check if s2 is a rotation of s1 using only one call to isSubstring.](https://github.com/evelynsv/CrackingTheCodingInterview/blob/main/src/main/java/cracking/the/code/interview/chapter1/Question1_9.java)
+
 # Chapter 4 | Trees and Graphs 
 
 [My Trie Implementation (insert/search)](https://github.com/brendonmiranda/CrackingTheCodingInterview/blob/main/src/main/java/data/structure/tree/TrieTree.java)
